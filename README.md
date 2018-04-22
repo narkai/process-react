@@ -4,6 +4,8 @@
 
 ProcessReact is a boilerplate for getting started with ProcessWire as a headless CMS for React (with Redux & Axios).
 
+ProcessWire forum topic [here](https://processwire.com/talk/topic/19077-react-boilerplate/).
+
 ### Credits
 
 Based on [ProcessVue](https://github.com/microcipcip/processvue), [Blogpost](https://processwire.com/talk/topic/15790-vue-20-boilerplate-for-processwire-30/).
