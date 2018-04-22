@@ -1,0 +1,72 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module",
+    "ecmaVersion": 8
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "React": true
+  },
+  "rules": {
+    "indent": [
+      "off"
+    ],
+    "linebreak-style": [
+      "off",
+      "windows"
+    ],
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "semi": [
+      "off",
+      "always"
+    ],
+    "no-unused-vars": [
+      "warn"
+    ],
+    "no-var": [
+      "warn"
+    ],
+    "no-console": [
+      "off"
+    ],
+    "no-undef": [
+      "warn"
+    ],
+    "react/display-name": [
+      "warn"
+    ],
+    "react/prop-types": [
+      "off"
+    ],
+    "react/no-render-return-value": [
+      "warn"
+    ]
+  },
+  "settings": {
+    "react": {
+      "pragma": "React"
+    },
+    "propWrapperFunctions": [
+      "forbidExtraProps"
+    ]
+  }
+}
