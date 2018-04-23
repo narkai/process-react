@@ -12,6 +12,8 @@ Based on [ProcessVue](https://github.com/microcipcip/processvue), [Blogpost](htt
 
 And on @gebeer [tutorial](https://processwire.com/talk/topic/11806-tutorial-building-a-simple-rest-api-in-processwire/).
 
+Thanks to [montmirail](https://github.com/montmirail) for his help on the React setup.
+
 ### Installation
 
 Install ProcessWire with this profile, which was exported using the [ProcessExportProfile](https://modules.processwire.com/modules/process-export-profile/) module.
